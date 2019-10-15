@@ -8,7 +8,8 @@ public class CandyflossStall extends Stall implements IReviewed {
         super(name, ownerName, parkingSpot);
     }
 
-    public String getName(){
-        return this.getName();
+    public int getRating() {
+        return 0;
     }
+
 }

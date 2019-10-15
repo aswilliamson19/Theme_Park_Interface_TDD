@@ -30,8 +30,4 @@ public class CandyflossStallTest {
         assertEquals(ParkingSpot.A1, candyflossStall.getParkingSpot());
     }
 
-    @Test
-    public void canGetName() {
-        assertEquals("Candy Land", candyflossStall.getName());
-    }
 }
