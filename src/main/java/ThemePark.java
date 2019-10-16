@@ -11,7 +11,7 @@ public class ThemePark {
     }
 //
 //    public void getAllReviewed(){
-//        return reviews;
+//
 //    }
 
 }

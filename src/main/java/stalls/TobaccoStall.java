@@ -6,8 +6,8 @@ import people.Visitor;
 
 public class TobaccoStall extends Stall implements ISecurity, IReviewed {
 
-    public TobaccoStall(String name, String ownerName, ParkingSpot parkingSpot) {
-        super(name, ownerName, parkingSpot);
+    public TobaccoStall(String name, String ownerName, ParkingSpot parkingSpot, int rating) {
+        super(name, ownerName, parkingSpot, rating);
     }
 
     public Boolean isAllowedTo(Visitor visitor) {
@@ -16,7 +16,4 @@ public class TobaccoStall extends Stall implements ISecurity, IReviewed {
         } else return false;
     }
 
-    public int getRating() {
-        return 0;
-    }
 }
